@@ -15,5 +15,8 @@ public class TestDemo {
 	public void testThree() {
 		System.out.println("TestThree...");
 	}
-
+	@Test
+	public void testFour() {
+		System.out.println("TestThree...");
+	}
 }
