@@ -23,4 +23,8 @@ public class TestDemo {
 	public void testFive() {
 		System.out.println("TestFive...");
 	}
+	@Test
+	public void testSix() {
+		System.out.println("TestSix...");
+	}
 }
