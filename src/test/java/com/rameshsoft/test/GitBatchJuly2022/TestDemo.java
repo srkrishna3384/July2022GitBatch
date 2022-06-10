@@ -26,5 +26,12 @@ public class TestDemo {
 	@Test
 	public void testEight() {
 		System.out.println("TestEightbyPerson2...");
+
+	public void testSix() {
+		System.out.println("TestSix...");
+	}
+	@Test
+	public void testSeven() {
+		System.out.println("TestSevenByPerson1...");
 	}
 }
