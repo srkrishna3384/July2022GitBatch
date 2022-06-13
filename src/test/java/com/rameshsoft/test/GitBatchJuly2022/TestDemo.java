@@ -24,6 +24,9 @@ public class TestDemo {
 		System.out.println("TestFive...");
 	}
 	@Test
+	public void testEight() {
+		System.out.println("TestEightbyPerson2...");
+
 	public void testSix() {
 		System.out.println("TestSix...");
 	}
