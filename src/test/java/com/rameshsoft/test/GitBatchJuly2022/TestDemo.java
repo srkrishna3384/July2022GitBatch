@@ -26,6 +26,7 @@ public class TestDemo {
 	@Test
 	public void testEight() {
 		System.out.println("TestEightbyPerson2...");
+	}
 
 	public void testSix() {
 		System.out.println("TestSix...");
@@ -34,8 +35,5 @@ public class TestDemo {
 	public void testSeven() {
 		System.out.println("TestSevenByPerson1...");
 	}
-	@Test
-	public void testEight() {
-		System.out.println("TestEight...");
-	}
+	
 }
