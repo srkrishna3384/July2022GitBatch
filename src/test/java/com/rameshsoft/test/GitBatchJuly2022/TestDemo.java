@@ -46,11 +46,11 @@ public class TestDemo {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 	}
-	@Test
-	public void navigateToRameshsoft() {
-		driver.get("https://www.rameshsoft.com/");
-		System.out.println("Navigate to "+driver.getCurrentUrl());
-	}
+//	@Test
+//	public void navigateToRameshsoft() {
+//		driver.get("https://www.rameshsoft.com");
+//		System.out.println("Navigate to "+driver.getCurrentUrl());
+//	}
 	
 	
 }
