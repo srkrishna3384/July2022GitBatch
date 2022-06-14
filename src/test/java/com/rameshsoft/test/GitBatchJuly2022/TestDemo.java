@@ -1,6 +1,10 @@
 package com.rameshsoft.test.GitBatchJuly2022;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestDemo {
 	@Test
@@ -35,5 +39,18 @@ public class TestDemo {
 	public void testSeven() {
 		System.out.println("TestSevenByPerson1...");
 	}
+	WebDriver driver;
+	@Test
+	public void launchBrowser() {
+		System.out.println("Launch the chrome browser...");
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+	}
+	@Test
+	public void navigateToRameshsoft() {
+		driver.get("https://www.rameshsoft.com/");
+		System.out.println("Navigate to "+driver.getCurrentUrl());
+	}
+	
 	
 }
